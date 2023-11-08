@@ -2,4 +2,4 @@
 
 ## App onde você pode consultar a previsão do tempo de qualquer lugar do mundo.
 
-## Acesse em git
+## Acesse em https://clima-mestre.vercel.app/
