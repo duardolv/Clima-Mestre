@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clima Mestre</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="info-box">
+      <div class="box-info">
+        <input
+          placeholder="Digite a cidade"
+          class="input-city"
+          type="text"
+          id="city-input"
+          list="lista"
+        />
+        <datalist  id="lista"></datalist>
+        <button class="button">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <div class="info-weather">
+        <h2 class="tittle-temp">Digite a cidade acima</h2>
+        <div class="data-degress">
+          <p class="degress"></p>
+          <p class="max-degress"></p>
+          <p class="min-degress"></p>
+        </div>
+      </div>
+
+      <div class="weather-description">
+        <img
+          class="icon-description"
+          src="https://openweathermap.org/img/wn/04n.png"
+          alt="icone da informação de clima"
+        />
+        <p class="temp-situaton"></p>
+      </div>
+
+      <p class="humidity"></p>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
